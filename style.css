@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: rgb(143, 221, 221);
+    display: flex;
+    flex-wrap: wrap;
+}
+.notes{
+    width: 400px;
+    height: 400px;
+    background-color: rgba(202, 209, 136, 0.842);
+    margin: 35px;
+    box-shadow: 0 0 10px 4px rgba(255, 255, 255, 0.1);
+}
+.tools{
+    background-color: #9ec862;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0.4rem;
+}
+.tools button {
+    background-color: transparent;
+    border: none;
+    color: rgb(85, 94, 7);
+    font-size: 1.1rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+.notes .main{
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+}
+.notes textarea{
+    outline: none;
+    height: 400px;
+    width: 100%;
+    border: none;
+    font-size: 1.2rem;
+}
+textarea {
+    resize: none;
+}
+.notes .hidden {
+    display: none;
+}
+.add{
+    background-color: #9ec862;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    position: fixed;
+    top: 1rem;
+    right: 46%;
+    font-weight: bold;
+}
+/* .but{
+    margin: 2rem auto;
+    display: block;
+} */
